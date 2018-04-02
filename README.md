@@ -18,7 +18,7 @@ Vue.use(VDplayer)
 ```JavaScript
 <template>
   <div id="app">
-    <v-dplayer :options=options></v-dplayer>
+    <v-dplayer :options=options id="dplayer"></v-dplayer>
   </div>
 </template>
 
@@ -80,5 +80,9 @@ export default {
 </script>
 
 <style>
+#dplayer {
+  width: 1024px;
+  height: 500px;
+}
 </style>
 ```
