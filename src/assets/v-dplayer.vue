@@ -24,3 +24,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+  @import url("../../node_modules/dplayer/dist/DPlayer.min.css");
+</style>
