@@ -4,13 +4,15 @@
 # 安装
 ```
 npm install v-dplayer --save
+或
+cnpm insatll v-dplayer --save
 ```
 
 # 使用
 - 在main.js中添加
 ```JavaScript
 import VDplayer from 'v-dplayer'
-import '../node_modules/v-dplayer/node_modules/dplayer/dist/DPlayer.min.css'
+import '../node_modules/v-dplayer/dist/style.css'
 
 Vue.use(VDplayer)
 ```
