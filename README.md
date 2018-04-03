@@ -89,3 +89,29 @@ export default {
 }
 </style>
 ```
+
+# API使用
+```JavaScript
+<v-dplayer ref="player"></v-dplayer>
+
+export default {
+    mounted() {
+      const player = this.$refs.player.dp
+      player.play()
+      setTimeout(() => {
+        player.pause()
+      }, 2000)
+    }
+```
+
+# 事件绑定
+```JavaScript
+<v-dplayer @play="play"></v-dplayer>
+
+export default {
+    methods: {
+      play() {
+        console.log('play callback')
+      }
+    }
+```
