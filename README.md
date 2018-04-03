@@ -91,6 +91,7 @@ export default {
 ```
 
 # API使用
+- [Dplayer的API](http://dplayer.js.org/#/zh-Hans/?id=api)
 ```JavaScript
 <v-dplayer ref="player"></v-dplayer>
 
@@ -105,6 +106,7 @@ export default {
 ```
 
 # 事件绑定
+- [Dplayer的Event](http://dplayer.js.org/#/zh-Hans/?id=%E4%BA%8B%E4%BB%B6%E7%BB%91%E5%AE%9A)
 ```JavaScript
 <v-dplayer @play="play"></v-dplayer>
 
