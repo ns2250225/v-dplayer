@@ -1,7 +1,7 @@
 {
   "name": "v-dplayer",
   "description": "A Plugin For Vue2 Based On Dplayer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "ns2250225 <243027571@qq.com>",
   "keywords": [
     "Vue2",

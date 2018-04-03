@@ -20,7 +20,17 @@ export default {
   },
   mounted() {
     this.options.container = document.getElementById('dplayer')
-    this.dp = new DPlayer(this.options)
+    const player = this.dp = new DPlayer(this.options)
+    const events = player.events
+    Object.keys(events).forEach(item => {
+      if (item === 'events') {
+        return false
+      } else {
+        events[item].forEach(event => {
+          player.on(event, () => this.$emit(event))
+        })
+      }
+    })
   }
 }
 </script>
